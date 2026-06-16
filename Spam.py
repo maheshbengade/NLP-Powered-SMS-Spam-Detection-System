@@ -40,7 +40,7 @@ if st.button("Predict"):
             st.error("🚨 Spam Message")
             st.info("This message appears to be promotional, fraudulent, or suspicious.")
         else:
-            st.success("✅ Ham Message")
+            st.success("✅ Not Spam Message")
             st.info("This message appears to be a normal personal message.")
 
 # Footer
